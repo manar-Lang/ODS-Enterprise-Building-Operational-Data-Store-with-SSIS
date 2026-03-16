@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.SourceDB_Sales"
+  DTS:DTSID="{BEF57799-6FB6-433B-B046-CF2499D77C5E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=SourceDB_Sales;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-ODS_ETL_Project-{BEF57799-6FB6-433B-B046-CF2499D77C5E}LocalHost.SourceDB_Sales;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
